@@ -1,0 +1,32 @@
+server:
+  port: 80
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: prod
+---
+
+
+
+---
+#person:
+#  lastName: zhangsan
+#  age: 18
+#  boss: false
+#  birth: 2017/12/03
+#  maps: {k1: v2, k2: 12}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: 小狗
+#    age: 12
